@@ -3,10 +3,10 @@
 +----------+-----------------------------------------+--------------------------+
 |  id      | Name of test + data                     |    |status+  comments    |
 +----------+-----------------------------------------+----------------------------
-| 1        | Create a new database 'COLUMB_college'  |
+| 1        | Create a new database 'COLUMB_college'  |success
 +----------+-----------------------------------------+----------------------------
 | 2        | Create a new table 'students' in the    |
-|          | database with 2 columns                 |
+|          | database with 2 columns                 |success
 |          | ['id_student', 'first_name']            |
 +----------+-----------------------------------+------------------------------
 | 3        | Add 3th and 4th columns in table        |  
