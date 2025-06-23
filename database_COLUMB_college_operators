@@ -1,0 +1,3 @@
+CREATE DATABASE COLUMB_college ; --1
+CREATE TABLE COLUMB_college.students (id_student int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+first_name varchar (25) UNIQUE); --2 
