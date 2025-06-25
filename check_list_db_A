@@ -9,9 +9,9 @@
 |          | database with 2 columns                 |success
 |          | ['id_student', 'first_name']            |
 +----------+-----------------------------------+------------------------------
-| 3        | Add 3th and 4th columns in table        |  
+| 3        | Add 3th and 4th columns in table        |  success
 |          |'students' ['last_name', 'date_of_birth]
 +----------+------------------------------------------+--------------------------
 | 4        | Enter data of 10 students into the       |
-|          |table 'students'                          |
+|          |table 'students'                          |success
 +----------+------------------------------------------+--------------------------
