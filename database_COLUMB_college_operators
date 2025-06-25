@@ -1,3 +1,39 @@
 CREATE DATABASE COLUMB_college ; --1
-CREATE TABLE COLUMB_college.students (id_student int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+CREATE TABLE COLUMB_college.students 
+(id_student int NOT NULL AUTO_INCREMENT PRIMARY KEY,
 first_name varchar (25) UNIQUE); --2 
+
+ALTER TABLE COLUMB_college.students
+ADD (last_name varchar (25), date_of_birth date); --3
+____________________________________
+INSERT INTO COLUMB_college.students --4 start
+(first_name, last_name, date_of_birth)
+VALUES ('Sheila', 'Kivicka', '1998-03-23');
+
+INSERT INTO COLUMB_college.students 
+(first_name, last_name, date_of_birth)
+VALUES ('Valia', 'Bulka', '2001-04-18'),
+('Ilon', 'Shnitcel', '1987-02-07'),
+('Acxel', 'Jirnov', '1966-12-03'); 
+
+INSERT INTO COLUMB_college.students 
+(first_name, last_name, date_of_birth)
+VALUES ('Mitchel', 'Jirrom', '2000-09-03'),
+('Golik', 'Brutte Van', '1997-11-22'),
+('Deive', 'Tivanit', '1995-08-03'); 
+
+INSERT INTO COLUMB_college.students 
+(id_student, first_name, last_name, date_of_birth)
+VALUES ('8','Pedro','Padarizzi', '1978-09-07');
+
+INSERT INTO COLUMB_college.students 
+(id_student, first_name, last_name, date_of_birth)
+VALUES ('9','Luna','Bardo', '1981-12-18'),
+('10', 'Gerard', 'Molofan', '1965-03-30');
+
+INSERT INTO COLUMB_college.students 
+(id_student, first_name, last_name, date_of_birth)
+VALUES ('11','Zirsanay','Gulibo', '1971-10-23'),
+('12', 'Kasia', 'Brutka', '1995-10-30');--4 end
+_________________________________________
